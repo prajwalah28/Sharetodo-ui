@@ -35,7 +35,7 @@ const Home = () => {
 
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:3000/api/user/addSharedCode", {
+      const response = await fetch("https://sharedtodo-backend.onrender.com/api/user/addSharedCode", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:3000/api/user/findToDoList/${codeEntered}`
+        `https://sharedtodo-backend.onrender.com/api/user/findToDoList/${codeEntered}`
       );
       if (response.ok) {
         setSharedCode(codeEntered); // Set shared code in context
