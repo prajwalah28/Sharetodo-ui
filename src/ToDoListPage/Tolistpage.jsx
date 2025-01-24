@@ -75,7 +75,7 @@ const Tolistpage = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-pink-500 via-pink-300 to-yellow-200">
       <div className="bg-white shadow-xl rounded-lg p-8 w-96">
       <h2 className="text-xl font-medium text-center text-gray-600 mb-4">
-            To-Do List for John & You ❤️
+            To-Do List for SweetHeart❤️ & You ❤️
           </h2>
     
         <h1 className="text-3xl font-bold text-center text-pink-600 mb-4">Our Shared To-Do List</h1>
